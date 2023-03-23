@@ -43,7 +43,7 @@ export const Navbar = () => {
                 
                 <ul class="dropdown-menu dropdown-menu-dark">
                     <li><NavLink to="/Login"><p class="dropdown-item text-decoration-none">Log in</p></NavLink></li>
-                    <li><a class="dropdown-item" href="#">Register</a></li>
+                    <li><a class="dropdown-item" href="#">Sign in</a></li>
                 </ul>
                 </li>
                 </ul>
