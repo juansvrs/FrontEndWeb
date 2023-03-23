@@ -1,10 +1,15 @@
+import { Login } from './components/Login';
+import {Navbar} from './components/Navbar';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>HOLA</h1>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path="/Login" element={<Login/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
