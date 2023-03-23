@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const SignIn = () => {
+export const SignUp = () => {
   return (
     <div>
         <div class='container'>
@@ -22,20 +22,20 @@ export const SignIn = () => {
                             <br></br>
                             <div class="form-group">
                                 <label for="username">Username:</label>
-                                <input type="text" class="form-control" id="username" name="username"/>
+                                <input type="text" class="form-control" id="username" name="username" required/>
                             </div>
                             <br></br>
                             <div class="form-group">
                                 <label for="password">Password:</label>
-                                <input type="password" class="form-control" id="password" name="password"/>
+                                <input type="password" class="form-control" id="password" name="password" required/>
                             </div>
                             <br></br>
                             <div class="form-group">
                                 <label for="password">Confirm password:</label>
-                                <input type="password" class="form-control" id="confPassword" name="confPassword"/>
+                                <input type="password" class="form-control" id="confPassword" name="confPassword" required/>
                             </div>
                             <br></br>
-                            <button type="button" class="btn btn-info container">Sign in</button>
+                            <button type="button" class="btn btn-info container">Sign Up</button>
                         </form>
                 </div>
             </div>

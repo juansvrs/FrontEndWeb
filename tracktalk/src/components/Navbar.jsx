@@ -23,7 +23,7 @@ export const Navbar = () => {
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Music</a>
+                    <li><NavLink to="/Music"><a class="nav-link">Music</a></NavLink></li>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Lists</a>
@@ -43,7 +43,7 @@ export const Navbar = () => {
                 
                 <ul class="dropdown-menu dropdown-menu-dark">
                     <li><NavLink to="/Login"><p class="dropdown-item text-decoration-none">Log in</p></NavLink></li>
-                    <li><a class="dropdown-item" href="#">Sign in</a></li>
+                    <li><NavLink to="/SignUp"><p class="dropdown-item text-decoration-none">Sign up</p></NavLink></li>
                 </ul>
                 </li>
                 </ul>

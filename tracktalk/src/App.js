@@ -1,10 +1,18 @@
 import { Login } from './components/Login';
-import {Navbar} from './components/Navbar';
-import { About } from './components/About';
-import { Lists } from './components/Lists';
-import { Music } from './components/Music';
-import { Login } from './components/Login';
-import { Home } from './components/Login';
+import { Navbar } from './components/Navbar';
+import { SignUp } from './components/SignUp';
+
+//* import { About } from './components/About';
+//* import { Lists } from './components/Lists';
+//* import { Music } from './components/Music';
+//* import { Home } from './components/Home';
+
+/*
+<Route path="/Home" element={<Home/>}/>
+<Route path="/Music" element={<Music/>}/>
+<Route path="/Lists" element={<Lists/>}/>
+<Route path="/About" element={<About/>}/>
+*/
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
@@ -14,11 +22,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/Login" element={<Login/>}/>
-        <Route path="/SignIn" element={<SignIn/>}/>
-        <Route path="/Home" element={<Home/>}/>
-        <Route path="/Music" element={<Music/>}/>
-        <Route path="/Lists" element={<Lists/>}/>
-        <Route path="/About" element={<About/>}/>
+        <Route path="/SignUp" element={<SignUp/>}/>
       </Routes>
     </BrowserRouter>
   );
