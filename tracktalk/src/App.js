@@ -6,6 +6,7 @@ import { Home } from './components/Home';
 import { About } from './components/About';
 
 
+
 //* import { Lists } from './components/Lists';
 
 /*
@@ -15,6 +16,7 @@ import { About } from './components/About';
 */
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -26,7 +28,12 @@ function App() {
         <Route path="/SignUp" element={<SignUp/>}/>
         <Route path="/" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>      
-        </Routes>
+     
+     </Routes>
+
+    <Footer></Footer>
+       
+
     </BrowserRouter>
   );
 }
