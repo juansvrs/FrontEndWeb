@@ -70,28 +70,28 @@ export const Home = () => {
 
 
             <div className="container">
-            <div class="d-flex flex-row mb-3">
-                    <div class="p-2">
-                        <img width="200" src="https://cdns-images.dzcdn.net/images/cover/d68c5560e7e839491a10cfcb1a01925c/500x500.jpg" alt="pt" />
-                    </div>
-                    <div class="p-2 card-img-top" width="200">
-                        <img width="200" src="https://upload.wikimedia.org/wikipedia/en/7/77/Bj%C3%B6rk-Debut-1993.png" alt="a" />
-                    </div>
-                    <div class="p-2 card-img-top" width="200">
-                        <img width="200" src="https://i.redd.it/wdra307uhdg51.png" alt="d" />
+            <div class="d-flex mb-3 justify-content-between view overlay zoom">
+                    <div class="p-2 w-50">
+                        <img class="img-thumbnail" src="https://cdns-images.dzcdn.net/images/cover/d68c5560e7e839491a10cfcb1a01925c/500x500.jpg" alt="pt" />
                     </div>
 
-                    <div class="p-2 card-img-top" width="200">
-                        <img width="200" src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2017/06/16/14975872992361.jpg" alt="d" />
+                    <div class="p-2 w-50" >
+                        <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/en/7/77/Bj%C3%B6rk-Debut-1993.png" alt="a" />
                     </div>
 
-                    <div class="p-2 card-img-top" width="200">
-                        <img width="200" src="https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png" alt="d" />
+                    <div class="p-2 w-50">
+                        <img class="img-thumbnail" src="https://i.redd.it/wdra307uhdg51.png" alt="d" />
                     </div>
 
-                    <div class="p-2 card-img-top" width="200">
-                        <img width="200" src="https://upload.wikimedia.org/wikipedia/en/5/54/AphexTwinICareBecauseYouDo.jpg" alt="d" />
+                    <div class="p-2 w-50" >
+                        <img class="img-thumbnail" src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2017/06/16/14975872992361.jpg" alt="d" />
                     </div>
+
+                    <div class="p-2 w-50">
+                        <img class="img-thumbnail" src="https://upload.wikimedia.org/wikipedia/en/a/a4/Pink_Floyd%2C_Wish_You_Were_Here_%281975%29.png" alt="d" />
+                    </div>
+
+                
                     
             </div>
 
