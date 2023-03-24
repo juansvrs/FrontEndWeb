@@ -17,11 +17,9 @@ export const Navbar = () => {
             </button>
             <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home
-                    <span class="visually-hidden">(current)</span>
-                    </a>
-                </li>
+
+                <li><NavLink to="/"><a class="nav-link">Home</a></NavLink></li>
+
                 <li class="nav-item">
                     <li><NavLink to="/Music"><a class="nav-link">Music</a></NavLink></li>
                 </li>
@@ -29,7 +27,7 @@ export const Navbar = () => {
                     <a class="nav-link" href="#">Lists</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <li><NavLink to="/About"><a class="nav-link">About</a></NavLink></li>
                 </li>
                 
                 <li class="nav-item dropdown position-absolute end-0 me-5">

@@ -1,5 +1,4 @@
 import React from 'react'
-import x from '../imgs/Kendrick.png'
 
 export const Music = () => {
   return (
