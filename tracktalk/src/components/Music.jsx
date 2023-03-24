@@ -230,5 +230,4 @@ export const Music = () => {
         <br></br>
         <br></br>
     </div>
-  )
-}
+  )}
