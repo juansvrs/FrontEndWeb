@@ -5,7 +5,7 @@ import { SignUp } from './components/SignUp';
 //* import { About } from './components/About';
 //* import { Lists } from './components/Lists';
 //* import { Music } from './components/Music';
-//* import { Home } from './components/Home';
+ import { Home } from './components/Home';
 
 /*
 <Route path="/Home" element={<Home/>}/>
@@ -23,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/Login" element={<Login/>}/>
         <Route path="/SignUp" element={<SignUp/>}/>
+        <Route path="/" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
   );
